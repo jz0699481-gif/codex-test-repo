@@ -1,0 +1,16 @@
+{
+  "name": "wenzhou-remotion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "remotion studio --no-open",
+    "render": "remotion render src/index.js WenzhouNostalgia output/wenzhou.mp4",
+    "poster": "remotion still src/index.js WenzhouPoster output/wenzhou-poster.png"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
